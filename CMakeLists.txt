@@ -107,7 +107,7 @@ if(NOT ITK_INSTALL_DOC_DIR)
   set(ITK_INSTALL_DOC_DIR share/doc/ITK-${ITK_VERSION_MAJOR}.${ITK_VERSION_MINOR})
 endif()
 if(NOT ITK_INSTALL_PACKAGE_DIR)
-  set(ITK_INSTALL_PACKAGE_DIR "lib/cmake/ITK-${ITK_VERSION_MAJOR}.${ITK_VERSION_MINOR}")
+  set(ITK_INSTALL_PACKAGE_DIR "lib/cmake/ITK")
 endif()
 
 # Override CMake's built-in add_* commands: assign LABELS to tests and targets
